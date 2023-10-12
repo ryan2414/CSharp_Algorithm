@@ -1,0 +1,15 @@
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/bin/Debug/net7.0/Algorithm
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/bin/Debug/net7.0/Algorithm.deps.json
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/bin/Debug/net7.0/Algorithm.runtimeconfig.json
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/bin/Debug/net7.0/Algorithm.dll
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/bin/Debug/net7.0/Algorithm.pdb
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.csproj.AssemblyReference.cache
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.AssemblyInfoInputs.cache
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.AssemblyInfo.cs
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.csproj.CoreCompileInputs.cache
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.dll
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/refint/Algorithm.dll
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.pdb
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/Algorithm.genruntimeconfig.cache
+/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/Debug/net7.0/ref/Algorithm.dll
