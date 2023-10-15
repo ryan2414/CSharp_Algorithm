@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithm/Array.txt">
+    <Files>
+      <File FileName="Algorithm/Program.cs" />
+      <File FileName="Algorithm/Board.cs" />
+      <File FileName="Algorithm/Array.txt" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Algorithm">
+            <Node name="Algorithm">
+              <Node name="Array.txt" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Algorithm PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
