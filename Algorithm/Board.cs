@@ -1,6 +1,7 @@
 ﻿using System;
 namespace Algorithm
 {
+    #region List
     public class MyList<T>
     {
         const int DEFAULT_SIZE = 1;
@@ -49,29 +50,164 @@ namespace Algorithm
             Count--;
         }
     }
+    #endregion
+
+    #region LinkedList
+    public class MyLinkedListNode<T>
+    {
+        public T Data;
+        public MyLinkedListNode<T> Next;
+        public MyLinkedListNode<T> Prev;
+    }
+
+    public class MyLinkedList<T>
+    {
+        public MyLinkedListNode<T> Head = null; // 첫번째
+        public MyLinkedListNode<T> Tail = null; // 마지막 
+        public int Count = 0;
+
+        // O(1)
+        public MyLinkedListNode<T> AddLast(T data)
+        {
+            MyLinkedListNode<T> newMyLinkedListNode = new MyLinkedListNode<T>();
+            newMyLinkedListNode.Data = data;
+
+            // 만약에 아직 방이 없다, 새로 추가한 방이 첫번째 방이 곧 Head.
+            if (Head == null)
+            {
+                Head = newMyLinkedListNode;
+            }
+
+            // 기존의 [마지막 방]과 [새로 추가되는 방]을 연결해 준다 .
+            if (Tail != null)
+            {
+                Tail.Next = newMyLinkedListNode;
+                newMyLinkedListNode.Prev = Tail;
+            }
+
+            // [새로 추가 되는 방]을 [마지막 방]으로 인정한다 .
+            Tail = newMyLinkedListNode;
+            Count++;
+            return newMyLinkedListNode;
+        }
+
+        // O(1)
+        public void Remove(MyLinkedListNode<T> MyLinkedListNode)
+        {
+            // [기존의 첫번째 방 다음 방]을 [첫번째 방]으로 인정한다. 
+            if (Head == MyLinkedListNode)
+            {
+                Head = Head.Next;
+            }
+
+            // [기존의 마지막 방의 이전 방]을 [마지막 방]으로 인정한다.
+            if (Tail == MyLinkedListNode)
+            {
+                Tail = Tail.Prev;
+            }
+
+            if (MyLinkedListNode.Prev != null)
+            {
+                MyLinkedListNode.Prev.Next = MyLinkedListNode.Next;
+            }
+
+            if (MyLinkedListNode.Next != null)
+            {
+                MyLinkedListNode.Next.Prev = MyLinkedListNode.Prev;
+            }
+
+            Count--;
+        }
+    }
+    #endregion
+
 
     public class Board
     {
-        public int[] _data = new int[25]; // 배열
+        //public int[] _data = new int[25]; // 배열
         //public List<int> _data2 = new List<int>(); //동적 배열 (C++ -> Vector)
-        public MyList<int> _data2 = new MyList<int>(); //동적 배열 (C++ -> Vector)
-        public LinkedList<int> _data3 = new LinkedList<int>(); // (양뱡향 ) 연결 리스트 (C++ -> List) 
+        //public MyList<int> _data2 = new MyList<int>(); //동적 배열 (C++ -> Vector)
+        //public LinkedList<int> _data3 = new LinkedList<int>(); // (양뱡향 ) 연결 리스트 (C++ -> List) 
+        //public MyLinkedList<int> _data3 = new MyLinkedList<int>(); // (양뱡향 ) 연결 리스트 (C++ -> List) 
 
-        public Board()
+        const char CIRCLE = '\u25cf';
+
+        public TileType[,] _tile;
+        public int _size;
+
+        public enum TileType
         {
+            Empty,
+            Wall,
         }
 
-        internal void Initialize()
+        internal void Initialize(int size)
         {
-            _data2.Add(101);
-            _data2.Add(102);
-            _data2.Add(103);
-            _data2.Add(104);
-            _data2.Add(105);
+            #region List
+            //_data2.Add(101);
+            //_data2.Add(102);
+            //_data2.Add(103);
+            //_data2.Add(104);
+            //_data2.Add(105);
 
-            int tem = _data2[2];
+            //int tem = _data2[2];
 
-            _data2.RemoveAt(2);
+            //_data2.RemoveAt(2);
+            #endregion
+
+            #region LinkedList
+            //_data3.AddLast(101);
+            //_data3.AddLast(102);
+            ////LinkedListNode<int> node = _data3.AddLast(103);
+            //MyLinkedListNode<int> node = _data3.AddLast(103);
+            //_data3.AddLast(104);
+            //_data3.AddLast(105);
+
+            //_data3.Remove(node);
+            #endregion
+
+            _tile = new TileType[size, size];
+            _size = size;
+
+            for (int y = 0; y < _size; y++)
+            {
+                for (int x = 0; x < _size; x++)
+                {
+                    if (x == 0 || x == _size - 1 || y == 0 || y == size - 1)
+                        _tile[y, x] = TileType.Wall;
+                    else
+                        _tile[y, x] = TileType.Empty;
+                }
+            }
+        }
+
+        public void Render()
+        {
+            ConsoleColor prevColor = Console.ForegroundColor;
+
+            for (int y = 0; y < 25; y++)
+            {
+                for (int x = 0; x < 25; x++)
+                {
+                    Console.ForegroundColor = GetTileColor(_tile[y, x]);
+                    Console.Write(CIRCLE);
+                }
+                Console.WriteLine();
+            }
+            Console.ForegroundColor = prevColor;
+        }
+
+        private ConsoleColor GetTileColor(TileType type)
+        {
+            switch (type)
+            {
+                case TileType.Empty:
+                    return ConsoleColor.Green;
+                case TileType.Wall:
+                    return ConsoleColor.Red;
+                default:
+                    return ConsoleColor.Green;
+            }
         }
     }
 }
