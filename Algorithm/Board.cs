@@ -135,6 +135,9 @@ namespace Algorithm
         public TileType[,] Tile { get; private set; }
         public int Size { get; private set; }
 
+        public int DestY { get; private set; }
+        public int DestX { get; private set; }
+
         Player _player;
 
         public enum TileType
@@ -177,6 +180,9 @@ namespace Algorithm
                 
             Tile = new TileType[size, size];
             Size = size;
+
+            DestY = size - 2;
+            DestX = size - 2;
 
             // Mazes for Programmers
             //GenerateByBinaryTree();
@@ -307,6 +313,10 @@ namespace Algorithm
                     if (y == _player.PosY && x == _player.PosX)
                     {
                         Console.ForegroundColor = ConsoleColor.Blue;
+                    }
+                    else if (y == DestY && x == DestX)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                     }
                     else
                     {

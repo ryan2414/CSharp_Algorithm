@@ -1,6 +1,13 @@
 ﻿using System;
 namespace Algorithm
 {
+    public class Pos
+    {
+        public Pos(int y, int x) { Y = y; X = x; }
+        public int Y;
+        public int X;
+    }
+
     public class Player
     {
         public int PosY { get; private set; }
@@ -8,24 +15,84 @@ namespace Algorithm
         Random _random = new Random();
         Board _board;
 
-        public void Initialize(int posY, int posX, int destY, int destX, Board board)
+        enum Dir
+        {
+            Up,
+            Left,
+            Down,
+            Right,
+        }
+
+        int _dir = (int)Dir.Up;
+        List<Pos> _points = new List<Pos>();
+
+        public void Initialize(int posY, int posX, Board board)
         {
             PosY = posY;
             PosX = posX;
 
             _board = board;
+
+            // 현재 바라보고 있는 방향을 기준으, 좌표 변화를 나타낸.
+            int[] frontY = new int[] { -1, 0, 1, 0 };
+            int[] frontX = new int[] { 0, -1, 0, 1 };
+            int[] rightY = new int[] { 0, -1, 0, 1 };
+            int[] rightX = new int[] { 1, 0, -1, 0 };
+
+            _points.Add(new Pos(PosY, PosX));
+
+            // 목적지 도착하기 전
+            while (PosY != board.DestY || PosX != board.DestX)
+            {
+                // 1. 현재 바라보는 방향을 기준으로 오른쪽으로 갈 수 있는지 확인
+                if (_board.Tile[PosY + rightY[_dir], PosX + rightX[_dir]] == Board.TileType.Empty)
+                {
+                    // 오른쪽 방향으로 90도 회전
+                    _dir = (_dir - 1 + 4) % 4;
+
+                    // 앞으로 한 보 전진
+                    PosY = PosY + frontY[_dir];
+                    PosX = PosX + frontX[_dir];
+                    _points.Add(new Pos(PosY, PosX));
+
+                }
+                // 2. 현재 바라보는 방향을 기준으로 전진 할 수 있는 지 확인 
+                else if (_board.Tile[PosY + frontY[_dir], PosX + frontX[_dir]] == Board.TileType.Empty)
+                {
+                    // 앞으로 한 보 전진
+                    PosY = PosY + frontY[_dir];
+                    PosX = PosX + frontX[_dir];
+                    _points.Add(new Pos(PosY, PosX));
+
+                }
+                else
+                {
+                    // 왼쪽 방향으로 90도 회전  
+                    _dir = (_dir + 1 + 4) % 4;
+                }
+
+            }
         }
 
-        const int MOVE_TICK = 100;
+        const int MOVE_TICK = 50;
         int _sumTick = 0;
-
+        int _lastIndex = 0;
         public void Update(int deltaTick)
         {
+            if (_lastIndex >= _points.Count)
+            {
+                return;
+            }
+
             _sumTick += deltaTick;
             if (_sumTick >= MOVE_TICK)
             {
                 _sumTick = 0;
 
+                PosY = _points[_lastIndex].Y;
+                PosX = _points[_lastIndex].X;
+                _lastIndex++;
+                /*
                 // 0.1초마다 실행될 로직
                 int randValue = _random.Next(0, 5);
                 switch (randValue)
@@ -55,6 +122,7 @@ namespace Algorithm
                         }
                         break;
                 }
+                */
             }
         }
     }
