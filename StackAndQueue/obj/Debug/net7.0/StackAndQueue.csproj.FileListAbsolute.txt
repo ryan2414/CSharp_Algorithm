@@ -1,0 +1,15 @@
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/bin/Debug/net7.0/StackAndQueue
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/bin/Debug/net7.0/StackAndQueue.deps.json
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/bin/Debug/net7.0/StackAndQueue.runtimeconfig.json
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/bin/Debug/net7.0/StackAndQueue.dll
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/bin/Debug/net7.0/StackAndQueue.pdb
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.csproj.AssemblyReference.cache
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.AssemblyInfoInputs.cache
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.AssemblyInfo.cs
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.csproj.CoreCompileInputs.cache
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.dll
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/refint/StackAndQueue.dll
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.pdb
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/StackAndQueue.genruntimeconfig.cache
+/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/Debug/net7.0/ref/StackAndQueue.dll

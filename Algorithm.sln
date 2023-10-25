@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{D985B129-2C66-4B86-A045-2E0623134062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D985B129-2C66-4B86-A045-2E0623134062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D985B129-2C66-4B86-A045-2E0623134062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D985B129-2C66-4B86-A045-2E0623134062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D985B129-2C66-4B86-A045-2E0623134062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

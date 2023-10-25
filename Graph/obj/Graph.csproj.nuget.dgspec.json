@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj": {}
+    "/Users/leeseungjae/CSharp_Algorithm/Graph/Graph.csproj": {}
   },
   "projects": {
-    "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj": {
+    "/Users/leeseungjae/CSharp_Algorithm/Graph/Graph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj",
-        "projectName": "Algorithm",
-        "projectPath": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj",
+        "projectUniqueName": "/Users/leeseungjae/CSharp_Algorithm/Graph/Graph.csproj",
+        "projectName": "Graph",
+        "projectPath": "/Users/leeseungjae/CSharp_Algorithm/Graph/Graph.csproj",
         "packagesPath": "/Users/leeseungjae/.nuget/packages/",
-        "outputPath": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/",
+        "outputPath": "/Users/leeseungjae/CSharp_Algorithm/Graph/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leeseungjae/.nuget/NuGet/NuGet.Config"

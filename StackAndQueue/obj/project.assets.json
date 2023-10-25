@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj",
-      "projectName": "Algorithm",
-      "projectPath": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/Algorithm.csproj",
+      "projectUniqueName": "/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/StackAndQueue.csproj",
+      "projectName": "StackAndQueue",
+      "projectPath": "/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/StackAndQueue.csproj",
       "packagesPath": "/Users/leeseungjae/.nuget/packages/",
-      "outputPath": "/Users/leeseungjae/CSharp_Algorithm/Algorithm/obj/",
+      "outputPath": "/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leeseungjae/.nuget/NuGet/NuGet.Config"

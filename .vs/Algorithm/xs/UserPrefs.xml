@@ -1,27 +1,35 @@
-﻿<Properties StartupConfiguration="{4B047D92-0FB0-40F0-ACDB-8BF8E0BC6321}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{AAC8A0DC-2D5F-44A3-A53A-83E5A1C6DADC}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithm/Array.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Graph/Program.cs">
     <Files>
       <File FileName="Algorithm/Program.cs" />
+      <File FileName="Algorithm/Array.txt" />
       <File FileName="Algorithm/Board.cs" />
-      <File FileName="Algorithm/Array.txt" Line="10" Column="1" />
+      <File FileName="Graph/Program.cs" Line="35" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Algorithm">
-            <Node name="Algorithm">
-              <Node name="Array.txt" selected="True" />
+            <Node name="Graph">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Algorithm PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Graph FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/leeseungjae/CSharp_Algorithm/Algorithm/Board.cs" relfile="Algorithm/Board.cs" line="152" column="1" />
+      <Breakpoint file="/Users/leeseungjae/CSharp_Algorithm/Algorithm/Board.cs" relfile="Algorithm/Board.cs" line="164" column="1" />
+      <Breakpoint file="/Users/leeseungjae/CSharp_Algorithm/Algorithm/Player.cs" relfile="Algorithm/Player.cs" line="75" column="1" />
+      <Breakpoint file="/Users/leeseungjae/CSharp_Algorithm/StackAndQueue/Program.cs" relfile="StackAndQueue/Program.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.StackAndQueue PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Algorithm PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
