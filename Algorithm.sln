@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{60BC5A87-CD8A-4975-905E-D46EFEC55DF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{471B487F-BEC6-44A1-99F2-A6E3A5A90215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{60BC5A87-CD8A-4975-905E-D46EFEC55DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BC5A87-CD8A-4975-905E-D46EFEC55DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BC5A87-CD8A-4975-905E-D46EFEC55DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471B487F-BEC6-44A1-99F2-A6E3A5A90215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471B487F-BEC6-44A1-99F2-A6E3A5A90215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471B487F-BEC6-44A1-99F2-A6E3A5A90215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471B487F-BEC6-44A1-99F2-A6E3A5A90215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
