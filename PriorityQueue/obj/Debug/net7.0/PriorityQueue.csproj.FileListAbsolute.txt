@@ -13,3 +13,17 @@
 /Users/leeseungjae/CSharp_Algorithm/PriorityQueue/obj/Debug/net7.0/PriorityQueue.pdb
 /Users/leeseungjae/CSharp_Algorithm/PriorityQueue/obj/Debug/net7.0/PriorityQueue.genruntimeconfig.cache
 /Users/leeseungjae/CSharp_Algorithm/PriorityQueue/obj/Debug/net7.0/ref/PriorityQueue.dll
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\bin\Debug\net7.0\PriorityQueue.exe
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\bin\Debug\net7.0\PriorityQueue.deps.json
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\bin\Debug\net7.0\PriorityQueue.runtimeconfig.json
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\bin\Debug\net7.0\PriorityQueue.dll
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\bin\Debug\net7.0\PriorityQueue.pdb
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.AssemblyInfoInputs.cache
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.AssemblyInfo.cs
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.csproj.CoreCompileInputs.cache
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.dll
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\refint\PriorityQueue.dll
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.pdb
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\PriorityQueue.genruntimeconfig.cache
+C:\Users\jackp\OneDrive\문서\Study_Algorithm\CSharp_Algorithm\PriorityQueue\obj\Debug\net7.0\ref\PriorityQueue.dll

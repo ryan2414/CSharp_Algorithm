@@ -21,7 +21,7 @@ namespace Algorithm
                 #region 프레임 관리
                 // FPS 프레임 (60 프레임 OK 30 프레임 이하로 NO)
                 // 만약 경과한 시간이 1/30초 보다 작다면
-                int currentTick = System.Environment.TickCount;
+                int currentTick = Environment.TickCount & Int32.MaxValue;
                 if (currentTick - lastTick < WAIT_TICK)
                     continue;
                 int deltaTick = currentTick - lastTick;
